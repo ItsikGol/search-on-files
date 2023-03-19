@@ -1,0 +1,14 @@
+
+#myDiv > div{  
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+#search-text{
+    text-align: center;
+}
