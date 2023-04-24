@@ -12,7 +12,7 @@ const downloadFile = async () => {
 fetch('https://search-project-domain-wpdtxrrvxuzxyvbm7ya4qv3mwu.us-east-1.es.amazonaws.com/docs6/_search?pretty=true&q=bla2')
   .then(response => response.json())
   .then(data => alert(data.hits.hits[0]._source.textDoc))
-  .catch(error => alert(error));
+  .catch(error => alert(JSON.stringify(error)));
 
     
     const pdf = await loadingTask.promise;
