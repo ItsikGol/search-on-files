@@ -12,8 +12,6 @@
   "type": "module",
   "license": "ISC",
   "dependencies": {
-    "@elastic/elasticsearch": "^8.7.0",
-    "@opensearch-project/opensearch": "^2.2.1",
     "base64-js": "^1.5.1",
     "cheerio": "^1.0.0-rc.12",
     "docx": "^8.0.3",
