@@ -1,0 +1,81 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.spinner {
+    font-size: 30px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#search-results{
+    margin-top: 20px;
+}
+
+.search-result-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 16px;
+    overflow: hidden;
+    margin-right: 22%;
+    margin-left: 22%;
+  }
+
+  .search-result-card__header{
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  .search-result-card__allText {
+    padding: 16px;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .search-result-card__numberPages {
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .search-result-card__createDoc {
+    display: block;
+    padding: 16px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .search-result-card__link:hover {
+    text-decoration: underline;
+  }
+
+  .search-result-card__toggle {
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #777;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 17px;
+  }
+  
+  .search-result-card__toggle i {
+    margin-right: 0.5rem;
+  }
+  
+  .search-result-card__title {
+    margin-left: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
